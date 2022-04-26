@@ -47,7 +47,7 @@ body:
   - type: dropdown
     id: session-startup-phase
     attributes:
-      label: 想定受講者の知識レベル（必須）
+      label: 登壇者のスタートアップのフェーズ （必須）
       options:
         - Seed
         - series A
