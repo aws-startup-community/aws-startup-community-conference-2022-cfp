@@ -1,5 +1,5 @@
-name: AWS Startup Community Call for Papers 応募フォーム
-description: AWS Startup Community Call for Papers へのご応募をご検討頂きありがとうございます。下記のフォームに必要事項をご記入の上、Submitしてください。
+name: AWS Startup Community Conference 2022　Call for Papers 応募フォーム
+description: AWS Startup Community Conference 2022 Call for Papers へのご応募をご検討頂きありがとうございます。下記のフォームに必要事項をご記入の上、Submitしてください。
 title: "<セッションタイトルを最大40文字程度で記入してください>"
 labels: [cfp]
 assignees:
@@ -8,10 +8,10 @@ body:
   - type: checkboxes
     id: terms
     attributes:
-      label: イベント登録規約、AWS 行動規範 Code of Conduct への同意 (必須)
+      label: AWS 行動規範 (Code of Conduct) への同意 (必須)
       description: セッションの応募にはイベント登録規約、および AWS 行動規範 Code of Conduct への同意が必要です
       options:
-        - label: 私は、[AWS 行動規範 Code of Conduct](https://aws.amazon.com/jp/codeofconduct/) を確認し、同意しました
+        - label: 私は、[AWS 行動規範 (Code of Conduct)](https://aws.amazon.com/jp/codeofconduct/) を確認し、同意しました
           required: true
   - type: input
     id: contact
