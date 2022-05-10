@@ -58,6 +58,7 @@ body:
         - series C
         - series D 以降
         - VC / 投資家
+        - その他
     validations:
       required: true
   - type: dropdown
@@ -99,6 +100,17 @@ body:
         - 開発プロセス
         - エンジニアのキャリア
         - エンジニア組織のカルチャー
+        - その他
+    validations:
+      required: true
+  - type: dropdown
+    id: session-format
+    attributes:
+      label: セッションのフォーマット (必須)
+      options:
+        - スライドを映しながら話す、通常セッション
+        - 対談形式
+        - パネルディスカッション
         - その他
     validations:
       required: true
