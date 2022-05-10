@@ -45,6 +45,32 @@ body:
     validations:
       required: false
   - type: dropdown
+    id: session-speaker-phase
+    attributes:
+      label: 登壇者の所属するスタートアップのフェーズ （必須）
+      options:
+        - Seed
+        - series A
+        - series B
+        - series C
+        - series D 以降
+        - VC / 投資家
+    validations:
+      required: true
+  - type: dropdown
+    id: session-expected-attendee-phase
+    attributes:
+      label: 想定受講者のスタートアップのフェーズ (複数選択可) (必須)
+      multiple: true
+      options:
+        - Seed
+        - series A
+        - series B
+        - series C
+        - series D 以降
+    validations:
+      required: true
+  - type: dropdown
     id: session-expected-attendee-roles
     attributes:
       label: 想定受講者の開発対象やロール・役割 (複数選択可) (必須)
@@ -58,32 +84,6 @@ body:
         - その他
     validations:
       required: true
-  - type: dropdown
-    id: session-startup-phase
-    attributes:
-      label: 登壇者の所属するスタートアップのフェーズ （必須）
-      options:
-        - Seed
-        - series A
-        - series B
-        - series C
-        - series D 以降
-        - VC / 投資家
-    validations:
-      required: true
-  - type: dropdown
-    id: session-expected-industries
-    attributes:
-      label: 想定受講者のスタートアップのフェーズ (複数選択可) (任意)
-      multiple: true
-      options:
-        - Seed
-        - series A
-        - series B
-        - series C
-        - series D 以降
-    validations:
-      required: false
   - type: dropdown
     id: session-topics
     attributes:
