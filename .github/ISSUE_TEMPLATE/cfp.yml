@@ -3,7 +3,10 @@ description: AWS Startup Community Conference 2022 Call for Papers へのご応�
 title: "<セッションタイトルを最大40文字程度で記入してください>"
 labels: [cfp]
 assignees:
-  - mats16
+  - sumi-biztech
+  - kzk-maeda
+  - isasenth
+  - xhiroga
 body:
   - type: checkboxes
     id: terms
