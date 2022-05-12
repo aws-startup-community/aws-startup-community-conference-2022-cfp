@@ -4,6 +4,7 @@
 
 ## AWS Startup Community Conference とは
 
+![](/cover.png)
 AWS Startup Community がお送りする、年に1度の祭典！
 
 日本中のAWSを利用する Startup が、AWS の知見を披露する Hub となる1日です。
