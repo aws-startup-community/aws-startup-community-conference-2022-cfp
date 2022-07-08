@@ -24,5 +24,6 @@ jobs:
             タイトル：${{ github.event.issue.title }}
             ＼
 
+            ＼聞いてみたいと思ったらいいね🦄👍／
             #AWSStartup
             ${{ github.event.issue.html_url }}
